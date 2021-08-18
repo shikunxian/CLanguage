@@ -1,0 +1,36 @@
+/*#include<stdio.h>
+
+Max(int c , int d)
+{
+    if (c > d)
+    return c;
+    else
+    return d;
+}
+
+
+int main()
+{
+    int a = 10;
+    int b = 20;
+    int max;
+    max = Max (a , b);
+    printf("最大值为= %d\n", max);
+    return 0;
+}
+*/
+
+#include<stdio.h>
+
+int main()
+{
+    int a = 20;
+    int b = 50;
+
+    if (a > b)
+    printf("最大值为=%d\n",a);
+    else
+    printf("最大值为=%d\n",b);
+    return 0;
+    
+}
